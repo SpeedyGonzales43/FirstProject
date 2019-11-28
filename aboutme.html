@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/about.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+</head>
+
+<body>
+    <header>
+        <h1>New Life is Loading...</h1>
+    </header>
+    
+    
+    <div id="media">
+        <div class="linkedin"> <a href="www.linkedin.com/in/burcu-temizer-11377b12/" class="fa fa-linkedin"></a></div>
+        <div class="instagram"> <a href="https://www.instagram.com/_speedy_gonzales77/" class="fa fa-instagram"></a></div>
+        <div class="facebook">
+            <a href="http://www.facebook.com/profile.php?id=568417127/" class="fa fa-facebook"></a></div>
+    </div>
+
+    <ul id="navigasyon" class="sidebar">
+        <li><a href="index.html" target="_self">HOME PAGE</a></li>
+        <li><a href="aboutme.html" target="_self" class="active">ABOUT ME</a></li>
+        <li><a href="mycats.html" target="_self">MY CATS</a></li>
+        <li><a href="mytrips.html" target="_self">MY TRIPS</a></li>
+    </ul>
+
+    <div id="closebutton" class="closebtn" style="visibility:hidden">
+        <a href="javascript:void(0)" onclick="closeNav()">x</a>
+    </div>
+
+    <div id="button">
+        <button class="openbtn" onclick="openNav()">Menu</button>
+    </div>
+
+    <div class="container">
+        <div class="image">
+            <img src="img/20140508_154606.jpg" alt="Leave nothing,but Footprints" />
+        </div>
+
+        <div class="container1">
+            <div class="profil">
+                <img src="img/546462_10150915459542128_2043476929_n.jpg" alt="My Foto" />
+            </div>
+
+            <div class="myself">
+
+                <p> <em>Burcu Temizer</em>-<strong>Front-End Web Developer-</strong></p>
+                <hr>
+                <p>Welcome to my first experince with Front-End Web Development Journey. I am Physics Engineer and 42 years old, but as you can see from my Foto, I still look so young, not only my Face but also my spirit. While I am looking for a new adventure, and would like to expand my borders, I got resigned from my Job and now I am here to learn exciting things. Just to join my Journey and let's it together live. </p>
+                <br class="all">
+                <a href="Burcu_HIZ_Resume.pdf" target="_blank">Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <b>&copy; 2019 My Website <br>All the photos are taken by me and not be used prior to permission. All Rights reserved.</b>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("navigasyon").style.width = "200px";
+            document.getElementById("closebutton").style.visibility = "visible";
+        }
+
+        function closeNav() {
+            document.getElementById("navigasyon").style.width = "";
+            document.getElementById("closebutton").style.visibility = "hidden";
+        }
+
+    </script>
+
+</body>
+
+</html>
